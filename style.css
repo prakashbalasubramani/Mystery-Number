@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+ 
+body{
+    font-family: 'Domain',serif;
+}
+.container{
+    background-color: black;
+    color:red;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+
+}
+.logo{
+    font-size: 5em;
+    
+
+}
+#start{
+    background-color: blue;
+    color: black;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 800;
+}
+#start:hover{
+    background-color:white;
+    color: blue;
+    cursor: pointer;
+    
+
+}
+input{
+    width: 400px;
+    height: 2em;
+    margin: 30px;
+    text-align: center;
+    font-size: 2em;
+    
+}
+.button{
+    width: 150px;
+    height: 60px;
+    background-color:red;
+    color:white;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align:center;
+    align-items: right;
+    justify-content:center;
+    border-left: 100px;
+
+}
+#input-container{
+
+    text-align: center;
+    align-items: center;
+    flex-wrap: wra
+    
+    
+}
+#submit{
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+    margin-left: 200px;
+}
+h1{
+    font-size: 3em;
+}
+#message{
+    color: aliceblue;
+    display: none;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+
+}
+.won{
+    justify-content: center;
+}
+.win{
+    font-size: 100px;
+    color:red;
+    background-color:black ;
+}
+.loss{
+    justify-content: center;
+}
+.lose{
+    font-size: 100px;
+    color:red;
+    background-color:black ;
+
+}
+
+
+#Submit {
+    margin-left: 130px;
+}
+
+.lives {
+display: flex;
+font-size: 3em;
+margin-left: 130px;
+}
